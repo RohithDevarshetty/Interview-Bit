@@ -31,7 +31,7 @@ int Solution::sqrt(int A) {
         return 1;
     }
     else{
-        return binarySearch(A, 0, A);
+        return binarySearch(A, 0, A/2);
     }
         
 }
